@@ -1,0 +1,64 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background-color: #5282e9;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #5282e9;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #a0b4e1;
+}
+
+.section-title {
+    font-family: 'Pacifico', cursive;
+}
+
+.carousel-image {
+    width: 100%; /* Defina a largura como 100% para ocupar toda a largura da tela horizontalmente */
+    height: auto; /* Permita que a altura seja ajustada automaticamente para manter a proporção da imagem */
+    max-height: 400px; /* Defina a altura máxima desejada para todas as imagens do carousel */
+    object-fit: cover; /* Isso fará com que a imagem seja dimensionada para cobrir todo o espaço, mantendo a proporção */
+}
+
+#sobre-o-playground,
+#cardapio {
+    background-color: #bbc9e8;
+}
+
+.text-colored {
+    color: #5282e9;
+}
+
+.nav-cardapio .nav-link.active,
+#fale-conosco button {
+    background-color: #5282e9;
+    color: #fff;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
